@@ -22,11 +22,6 @@ flowchart
     I["NavigableSet"]
     J["BlockingDeque"]
     K["TransferQueue"]
-    L["Map"]
-    M["SortedMap"]
-    N["NavigableMap"]
-    O["ConcurrentMap"]
-    P["ConcurrentNavigableMap"]
     
     I --> F
     F --> C
@@ -39,12 +34,6 @@ flowchart
     E --> B
     H --> E
     K --> H
-    
-    P --> N
-    P --> O
-    N --> M
-    M --> L
-    O --> L
 ```
 
 ```mermaid
